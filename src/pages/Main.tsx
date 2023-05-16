@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 import { Home } from './Home'
 import { Practice } from './Practice'
 
+// Routes the web application to different pages
+
 const Main = () => (
     <Routes>
         <Route
