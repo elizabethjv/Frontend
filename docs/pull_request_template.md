@@ -1,4 +1,4 @@
-# INSO-{Issue Number} Pull Request
+# SCHED-{Issue Number} Pull Request
 
 Author: {Your Name}  
 Type: {Is your change a bugfix, feature addition, rollback?}
@@ -10,7 +10,7 @@ _Short description of what the code changes in this pull request do._
 ## Jira Ticket
 
 _Link to your Jira ticket, for example:_  
-[INSO-7: Add React Router to project](https://redbrickmedia.atlassian.net/browse/DIGI-7)
+[SCHED-48: Add loading page](https://capstone-frontend.atlassian.net/browse/SCHED-48)
 
 ## Impact
 
