@@ -7,7 +7,7 @@ export const MediumWhiteButton = styled.button`
     background-color: #f4f5f8;
     display: flex;
     align-items: center;
-    border: 0px;
+    border: 2px solid #c8c8c8;
     justify-content: center;
     &:hover {
         background-color: #c8c8c8;
