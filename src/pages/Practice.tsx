@@ -1,10 +1,8 @@
 import { MediumBlackButton, MediumBlueButton, MediumRedButton } from '../components/atoms/button'
 import { H1 } from '../components/atoms/typography'
 import { HomeBackground } from '../components/home/background'
+import { InputField } from '../components/atoms/input_field'
 import { NavUnlisted } from '../components/atoms/navLink'
-import styled from '@emotion/styled'
-import { NavLink } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 
 // Page to display created components
 
@@ -22,6 +20,7 @@ export const Practice = () => {
                 <MediumBlueButton>
                     <H1>Blue Button</H1>
                 </MediumBlueButton>
+                <InputField placeholder='jsmith'></InputField>
                 <NavUnlisted to='/Home'>Home</NavUnlisted>
                 <NavUnlisted to='/'>About</NavUnlisted>
             </HomeBackground>
