@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import { Home } from './Home'
 import { Practice } from './Practice'
+import { ProfHomepage } from './ProfHomepage'
 
 // Routes the web application to different pages
 
@@ -13,7 +14,7 @@ const Main = () => (
                     <Home />
                 </>
             }
-        ></Route>
+        />
         <Route
             path='/'
             element={
@@ -21,7 +22,15 @@ const Main = () => (
                     <Practice />
                 </>
             }
-        ></Route>
+        />
+        <Route
+            path='/ProfHomepage'
+            element={
+                <>
+                    <ProfHomepage />
+                </>
+            }
+        />
     </Routes>
 )
 

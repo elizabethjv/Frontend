@@ -20,9 +20,11 @@ export const Practice = () => {
                 <MediumRedButton>
                     <H1>Red Button</H1>
                 </MediumRedButton>
-                <MediumBlueButton>
-                    <H1>Blue Button</H1>
-                </MediumBlueButton>
+                <a href='ProfHomepage'>
+                    <MediumBlueButton>
+                        <H1>Blue Button</H1>
+                    </MediumBlueButton>
+                </a>
                 <InputField placeholder='jsmith'></InputField>
                 <NavUnlisted to='/Home'>Home</NavUnlisted>
                 <NavUnlisted to='/'>About</NavUnlisted>
