@@ -1,20 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import Main from './pages/Main'
-import Preloader from './components/Loading/PreLoader'
+import { Home } from './Home'
+import Preloader from '../components/Loading/PreLoader'
 
-function App() {
+export function Loading() {
     const [loading, setLoading] = useState(false)
     useEffect(() => {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
-        }, 1000)
+        }, 4000)
     }, [])
-    return (
-        <div>
-            <Main />
-        </div>
-    )
+    return <div>{loading ? <Preloader /> : <Home />}</div>
 }
-
-export default App
