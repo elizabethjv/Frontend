@@ -13,23 +13,23 @@ export const ProfHomepage = () => {
                 <div className='row'>
                     <div className='col'>
                         <span>
-                            <span className='tex-sim'>Simple</span>
+                            <H2>Simple</H2>
                             <br />
-                            <span id='tex-sch' className='tex-sim'>
-                                Scheduling
-                            </span>
+                            <H2 className='tex_sch'>Scheduling</H2>
                             <br />
-                            <span className='tex-sim'>For Professors</span>
+                            <H2>For Professors</H2>
                         </span>
                     </div>
-                    <div className='col'>
+                    <div className='col rig'>
                         <p className='para'>
                             {' '}
                             We create schedules for UVic Professors
                             <br />
                             based on personal prefences to better their teaching experience.
                         </p>
-                        <button className='bt'>SET YOUR PREFERENCES</button>
+                        <MediumWhiteButton className='bt2'>
+                            <H1>SET YOUR PREFERENCES</H1>
+                        </MediumWhiteButton>
                     </div>
                 </div>
             </div>

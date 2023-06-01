@@ -41,7 +41,6 @@ const Main = () => (
                 </>
             }
         />
-        ></Route>
         <Route
             path='/loading'
             element={
