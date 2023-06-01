@@ -3,6 +3,7 @@ import { Home } from './Home'
 import { Loading } from './Loading'
 import { Login } from './Login'
 import { Practice } from './Practice'
+import { ProfHomepage } from './ProfHomepage'
 
 // Routes the web application to different pages
 
@@ -15,7 +16,7 @@ const Main = () => (
                     <Home />
                 </>
             }
-        ></Route>
+        />
         <Route
             path='/'
             element={
@@ -31,9 +32,17 @@ const Main = () => (
                     <Practice />
                 </>
             }
-        ></Route>
+        />
         <Route
-            path='/loading'
+            path='/ProfHomepage'
+            element={
+                <>
+                    <ProfHomepage />
+                </>
+            }
+        />
+        <Route
+            path='/user'
             element={
                 <>
                     <Loading />
