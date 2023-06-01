@@ -19,7 +19,7 @@ export const Login = () => {
                     <H1>Password:</H1>
                     <InputField type='password' />
                 </InputWrapper>
-                <SimpleLink to='/loading'>
+                <SimpleLink to='/user'>
                     <MediumWhiteButton style={{ width: '260px' }}>
                         <H1>SIGN IN</H1>
                     </MediumWhiteButton>

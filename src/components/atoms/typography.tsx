@@ -10,8 +10,7 @@ export const H1 = styled.div`
 `
 
 export const H2 = styled.div`
-    font-family: Montserrat-Medium;
-    text-transform: uppercase;
+    font-family: Montserrat-semiBold;
     font-size: 56px;
     letter-spacing: 0.015em;
 `

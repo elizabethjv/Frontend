@@ -4,7 +4,7 @@ import { HomeBackground } from '../components/home/background'
 import { InputField } from '../components/atoms/input_field'
 import { NavUnlisted } from '../components/atoms/navLink'
 import 'bootstrap/dist/css/bootstrap.css'
-import './ProfHomepage.css'
+import '../components/ProfHomepage/ProfHomepage.css'
 
 export const ProfHomepage = () => {
     return (
@@ -14,19 +14,12 @@ export const ProfHomepage = () => {
                     <div className='col'>
                         <span>
                             <H2>Simple</H2>
-                            <br />
                             <H2 className='tex_sch'>Scheduling</H2>
-                            <br />
                             <H2>For Professors</H2>
                         </span>
                     </div>
                     <div className='col rig'>
-                        <p className='para'>
-                            {' '}
-                            We create schedules for UVic Professors
-                            <br />
-                            based on personal prefences to better their teaching experience.
-                        </p>
+                        <p className='para'> We create schedules for UVic Professors based on personal prefences to better their teaching experience.</p>
                         <MediumWhiteButton className='bt2'>
                             <H1>SET YOUR PREFERENCES</H1>
                         </MediumWhiteButton>

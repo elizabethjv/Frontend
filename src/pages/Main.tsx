@@ -42,7 +42,7 @@ const Main = () => (
             }
         />
         <Route
-            path='/loading'
+            path='/user'
             element={
                 <>
                     <Loading />
