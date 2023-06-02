@@ -5,10 +5,12 @@ import { InputField } from '../components/atoms/input_field'
 import { NavUnlisted } from '../components/atoms/navLink'
 import 'bootstrap/dist/css/bootstrap.css'
 import '../components/Homepage/homepage.css'
+import { NavBarAdmin } from '../components/navbar'
 
 export const AdminHomepage = () => {
     return (
         <div>
+            <NavBarAdmin />
             <div className='cen'>
                 <div className='row'>
                     <div className='col'>
